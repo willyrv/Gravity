@@ -8,14 +8,14 @@
 # Site settings
 title: Gravity
 email: hemangsk@gmail.com
-github : github.com/GTPB
+github : github.com/willyrv
 description: The Liberal Jekyll Theme
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "https://github.com" # the base hostname & protocol for your site
 twitter_username: willy_r_v
 github_username:  willyrv
 # NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
-production_url : https://gtpb.github.io/PGDH19
+production_url : https://willyrv.github.io/Gravity
 paginate: 5
 theme-dark: false #Set to true to change to dark website theme
 
