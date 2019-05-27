@@ -8,11 +8,24 @@
 # Site settings
 title: Gravity
 email: hemangsk@gmail.com
+github : github.com/willyrv
 description: The Liberal Jekyll Theme
+<<<<<<< HEAD
 baseurl: "/Gravity" # the subpath of your site, e.g. /blog
 url: "http://hemangsk.github.io" # the base hostname & protocol for your site
 twitter_username: hemang_kumar
 github_username:  hemangsk
+=======
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com" # the base hostname & protocol for your site
+twitter_username: willy_r_v
+github_username:  willyrv
+# NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
+production_url : https://willyrv.github.io/Gravity
+paginate: 5
+theme-dark: false #Set to true to change to dark website theme
+>>>>>>> master
 
+plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
