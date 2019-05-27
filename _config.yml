@@ -6,9 +6,13 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Gravity
-email: hemangsk@gmail.com
-github : github.com/willyrv
+title : Gravity
+author :
+  name : Gravity
+  email : willyrv@gmail.com
+  github : github.com/willyrv
+
+
 description: The Liberal Jekyll Theme
 <<<<<<< HEAD
 baseurl: "/Gravity" # the subpath of your site, e.g. /blog
@@ -29,3 +33,5 @@ theme-dark: false #Set to true to change to dark website theme
 plugins: [jekyll-paginate, kramdown]
 # Build settings
 markdown: kramdown
+# NOTE: If replacing this next line with your own URL, you likely want "https://" not "http://"
+BASE_PATH : https://willyrv.github.io/Gravity
