@@ -3,58 +3,18 @@ layout: default
 ---
 
 <div class="home">
+<br/>
+  <p><strong>Models and modelling are probably central to the scientific inquiry</strong>. One likely reason is that models help scientists clarify the assumptions they make, and the limits of the conclusions they draw from real world data. Models help (and force) scientists to be clear and consistent. Modelling also provides potential contradictors, who are fundamental for the advancement of science, to know exactly what has been done and assumed. This is not the case when statements are made verbally and using poorly defined words and concepts or simply using words and concepts whose meaning have been evolving over years or decades.</p>
 
+  <p>Models and modelling are thus not issues to be discussed by theoreticians only. They must be discussed by the whole scientific community and by all of those interested in the advancement of science as a rational inquiry about the natural world. From a historical and philosophical point of view, models and modelling are also fundamental. Indeed, models help us understand the views that predecessors had on a particular subject. If scientists claim to express meaningful statements about the world, human evolution, the development of the embryo, or ecology, then their statements should be clear and as objectively defined as possible so that future researchers will be able to reframe them.</p>
 
-  {% for post in paginator.posts%}
-  <div class="post postContent">
-    <div  class="postDate"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>
-    </div>
-    <div class="postTag">
-      {{post.tag}}
-    </div>
-    <br>
-    <div class="postTitle">
-    <a class='postLink' href="{{site.url}}{{site.baseurl}}{{post.url}}">{{post.title}}</a>
-    </div>
-    <div class="postExt">
-   {{ post.content | strip_html | truncate:200}}
-    </div>
-  </div>
+  <p>At the same time, with recent advances in artificial intelligence, big data and deep learning, the very question of modelling has been directly and indirectly questioned. Indeed, if deep learning approaches can analyse very large data sets produced by modern science and produce useful information, then <strong>why should we care about modelling?</strong></p>
 
-  {% endfor %}
-  {% if paginator.total_pages > 1 %}
-    <nav class="pagination">
-      {% if paginator.previous_page %}
-        <a class="paginationLink" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-      {% endif %}
+<p>This is (unfortunately?) a serious question given that, in many areas of biology, it is not rare to meet scientists who exhibit little interest in models and modelling, and produce big data at an increasing pace. <strong>Models are often seen as simplistic, unrealistic, and possibly useless.</strong></p>
 
-    {% for page in (1..paginator.total_pages) %}
-      {% if page == paginator.page %}
-        <em class="paginationLink paginationLinkCurrent">{{ page }}</em>
-      {% elsif page == 1 %}
-        <a class="paginationLink" href="/">{{ page }}</a>
-      {% else %}
-        <a class="paginationLink" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-      {% endif %}
-    {% endfor %}
+<p><strong>This is not the position of the organizers of the meeting.</strong> We strongly believe that there is a need for biologists, mathematicians, physicists, computer scientists, philosophers to meet and discuss the future of science in areas where biology, mathematics and computer science meet.</p>
 
-    {% if paginator.next_page %}
-      <a class="paginationLink" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-    {% endif %}
-    </nav>
-  {% endif %}
-  <!--<ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta-main">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link-main" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>-->
-
+<p><strong>The aim of this meeting</strong> is to bring together scientists interested in modelling across different areas of biology. The INSA-Toulouse (http://www.insa-toulouse.fr/fr/index.html), the Evolution & Diversité Biologique lab (http://edb.cnrs.fr/), and the Instituto Gulbenkian de Ciência, in Oeiras, Portugal (http://www.igc.gulbenkian.pt/), have been collaborating over several years and have developed work at the heart of these questions, from ecology to population genetics, molecular biology and epidemiology.</p>
 
 
 </div>
