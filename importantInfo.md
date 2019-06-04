@@ -8,16 +8,73 @@ tagline: ""
 
 <br/>
 
-#### Important Organizational details
+<div style="text-align:center">
+<h4>OPEN CONFERENCE</h4>
 
-1. Registering is free, but compulsory. You can register <a href="https://forms.gle/zBnh2z4x8ToCbUKm7">here</a>. 
-2. Registering only gives access to the talks  
-3. Access to coffee breaks will be limited to people who belong to the EDB lab, the INSA, or the IGC and who have registered. Tickets for coffee breaks will be distributed to those who registered before the deadline.  
-3. Lunch tickets for access the UPSIDUM restaurant will be provided for the Speakers and organizers.  
-4. Lunch tickets for access the INSA student and staff restaurant will be provided to the registered people from INSA, EDB and the IGC.
+<p>
+On models and modelling in biology: <br/>
+from ecology and evolution to epidemiology and gene networks
+<br/>
+Short title: Modelling in Biology
+</p>
 
-##### ADDITIONAL INFORMATION CAN BE OBTAINED FROM Lounès CHIKHI at: lounes.chikhi@univ-tlse3.fr
+<p>
+<strong>Co-organizers</strong> (alphabetical order): <br/>
+Armando Arredondo, Alekos Athanasiadis, Jorge Carneiro, Lounès Chikhi,<br/>
+Florence Fréchou, Jean-Louis Hemptinne, Olivier Mazet, Willy Rodriguez
+</p>
 
-##### Answers will only be provided for questions for which the answer is not in the documents already available.
+<p>
+<strong>Dates:</strong> 20-21 June 2019<br/>
+<strong>Location:</strong> Amphithéâtre Fourier<br/>
+Institut National des Sciences Appliquées (INSA), Toulouse<br/>
+135 Avenue de Rangueil, 31400 Toulouse
+</p>
 
-##### The program can be found here LINK TO PROGRAMPDF
+<p>
+This meeting is open to all, whether they are scientists or simply interested in science.<br/>
+Priority will be given to members of the organizing institutions (EDB, INSA, IGC),
+provided that they registered.
+</p>
+
+<p>
+REGISTERING IS FREE, BUT COMPULSORY (SEE BELOW)<br/>
+(but does not give access to coffee breaks or lunch)
+</p>
+
+<p>
+<strong>Funders:</strong><br/>
+CNRS: LIA BEEG-B<br/>
+(Laboratoire International Associé
+“Bioinformatics, Ecology, Evolution, Genomics and Behaviour”)<br/>
+Instituto Gulbenkian de Ciência<br/>
+Laboratoire Evolution & Diversité Biologique<br/>
+Institut National des Sciences Avancées (INSA), Toulouse<br/>
+Fundação para a Ciência e a Tecnologia<br/>
+DISPO (Demographic Inference in Structured Populations) PROJECT
+</p>
+</div>
+
+<br/>
+
+<div style="text-align:center">
+
+<h3>IMPORTANT ORGANIZATIONAL DETAILS</h3>
+<ol style="text-align:left">
+<li>Registering is <strong>free</strong>, but <strong>compulsory</strong>. This can be done <a href="https://forms.gle/Kcdwii9EjiXNrweU6">here</a></li>
+<li>Registering <strong>only</strong> gives access to the <strong>talks</strong></li>
+<li>Access to coffee breaks is limited to people who belong to the <strong>EDB lab</strong>, the <strong>INSA</strong>, or the <strong>IGC</strong> and who have <strong>registered</strong> before the deadline.</li>
+</ol>
+
+<br/>
+
+<h5>ADDITIONAL INFORMATION CAN BE OBTAINED FROM Lounès CHIKHI at:
+lounes.chikhi@univ-tlse3.fr</h5>
+
+<br/>
+
+The program can be found here LINK TO PROGRAMPDF
+
+</div>
+
+<br/>
