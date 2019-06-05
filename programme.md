@@ -1,7 +1,7 @@
 ---
 layout: default
-title: program
-permalink: /program/
+title: programme
+permalink: /programme/
 tagline: ""
 ---
 
@@ -16,7 +16,7 @@ tagline: ""
 |10H30 – 11H30 |	Claudine Chaouiya <br/> **Modelling molecular networks to assess relevant static and dynamical properties** |
 |11h30 – 12H00 | PAUSE / DISCUSSION |
 |12H00 – 14H00 | LUNCH |
-|14H00 – 15H00 |Claire de Mazencourt <br/> **Biodiversity, ecosystem functioning &amp; stability: theory &amp;modelling** |
+|14H00 – 15H00 |Claire de Mazancourt <br/> **Biodiversity, ecosystem functioning &amp; stability: theory &amp;modelling** |
 |15H00 – 16H00 |Erida Gjini <br/> **Understanding microbial competition with mathematical models** |
 |16H00 – 16H30 | COFFEE BREAK  |
 |16H30 – 17H30 | Robin Aguilée <br/> **How to use models to link microevolutionary mechanisms and macroevolutionary patterns?** |
