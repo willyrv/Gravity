@@ -10,12 +10,24 @@ tagline: ""
 
 <div style="text-align:center">
 <h4>OPEN CONFERENCE</h4>
+<h4>REGISTRATION REQUIRED</h4>
 
 <p>
 On models and modelling in biology: <br/>
 from ecology and evolution to epidemiology and gene networks
+</p>
+
+<p>
+<strong> 20-21 June 2019<br/>
+Amphithéâtre Fourier<br/>
+Institut National des Sciences Appliquées (INSA), Toulouse<br/>
+135 Avenue de Rangueil, 31400 Toulouse</strong>
+</p>
+
+
 <br/>
-Short title: Modelling in Biology
+<p>
+Short title: <strong>Modelling in Biology</strong>
 </p>
 
 <p>
@@ -25,20 +37,13 @@ Florence Fréchou, Jean-Louis Hemptinne, Olivier Mazet, Willy Rodriguez
 </p>
 
 <p>
-<strong>Dates:</strong> 20-21 June 2019<br/>
-<strong>Location:</strong> Amphithéâtre Fourier<br/>
-Institut National des Sciences Appliquées (INSA), Toulouse<br/>
-135 Avenue de Rangueil, 31400 Toulouse
+This meeting is <strong>open to all</strong>, whether they are scientists or simply interested in science.<br/>
+<strong>Priority</strong> will be given <strong>to members</strong> of the <strong>organizing institutions (EDB, INSA, IGC),
+provided that they registered</strong>.
 </p>
 
 <p>
-This meeting is open to all, whether they are scientists or simply interested in science.<br/>
-Priority will be given to members of the organizing institutions (EDB, INSA, IGC),
-provided that they registered.
-</p>
-
-<p>
-REGISTERING IS FREE, BUT COMPULSORY (SEE BELOW)<br/>
+REGISTERING IS <underline>FREE</underline>, BUT <underline>COMPULSORY</underline> (SEE BELOW)<br/>
 (but does not give access to coffee breaks or lunch)
 </p>
 
