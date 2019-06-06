@@ -64,17 +64,6 @@ Armando Arredondo, Alekos Athanasiadis, Jorge Carneiro, Lounès Chikhi,<br/>
 Florence Fréchou, Jean-Louis Hemptinne, Olivier Mazet, Willy Rodriguez
 </p>
 
-<p>
-<strong>Funders:</strong><br/>
-CNRS: LIA BEEG-B<br/>
-(Laboratoire International Associé
-“Bioinformatics, Ecology, Evolution, Genomics and Behaviour”)<br/>
-Instituto Gulbenkian de Ciência<br/>
-Laboratoire Evolution & Diversité Biologique<br/>
-Institut National des Sciences Avancées (INSA), Toulouse<br/>
-Fundação para a Ciência e a Tecnologia<br/>
-DISPO (Demographic Inference in Structured Populations) PROJECT
-</p>
 </div>
 
 
