@@ -1,7 +1,6 @@
 ---
 layout: default
 title: programme
-permalink: /programme/
 tagline: ""
 ---
 
@@ -79,7 +78,7 @@ function showStuff(id) {
     position: fixed;
     top: 50%;
     left: 50%;
-    background: #D3EFED;
+    background: #E8DCFC;
     margin-left: -400px; /*Half the value of width to center div*/
     margin-top: -250px; /*Half the value of height to center div*/
     z-index: 200;
@@ -97,7 +96,7 @@ function showStuff(id) {
 }
 .popupcontrols{
     height: 30px;
-    background: #8BBCCF;
+    background: #A99CBF;
 }
 #button {
     cursor: pointer;
@@ -115,12 +114,21 @@ function showStuff(id) {
    </thead>
    <tbody>
       <tr class="tablerow">
-         <td class="timedetails">DAY 1<br/> Thu, 20<sup>th</sup> Jun.</td>
+         <td class="timedetails"><strong>DAY 1<br/> Thu, 20<sup>th</sup> Jun.</strong></td>
          <td></td>
       </tr>
       <tr class="tablerow">
          <td class="timedetails">08:30 - 09:00</td>
-         <td>INTRO: <u>Olivier Mazet</u> and <u>Lounès Chikhi</u> <br/> <i>Why models are important: population genetics and beyond.</i></td>
+         <td>INTRO: <u>Olivier Mazet</u> and <u>Lounès Chikhi</u> <br/> <i>Why models are important: population genetics and beyond.</i><br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupRasmus" class="popup">
+    <div class="popupcontrols">
+        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+    </div>
+    <div class="popupcontent">
+		Abstract to be announced         
+    </div>
+    </div>
+         </td>
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
@@ -165,13 +173,13 @@ function showStuff(id) {
       </tr>        
       <tr class="tablerow">
          <td class="timedetails">14:00 - 15:00</td>
-         <td><u>Claire de Mazencourt </u>. <br/><i>Biodiversity, ecosystem functioning & stability: theory & modelling</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Claire de Mazancourt </u>. <br/><i>Biodiversity, ecosystem functioning & stability: theory & modelling</i>  <br> <span onclick="showPopup('popupCMazancourt', 'CMazancourt'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupCMazancourt" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseCMazancourt" onclick="hidePopup('popupCMazancourt', 'CMazancourt'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		How mathematical models link with experimental data, with inputs from mathematics and physics to help us understand how biodiversity affects ecosystem functioning & stability. I’ll outline some of the research carried at the Centre for Biodiversity Theory and Modelling in Moulis.
     </div>
     </div>
          </td>
@@ -196,13 +204,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary patterns?</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupRobinAguilee" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		Macroevolutionary patterns (e.g. rate of diversification, species-area relationship) ultimately result from microevolutionary mechanisms (competition, trait evolution, etc.). Nevertheless, the causal links between micro- and macro-timescales are usually very difficult to establish from empirical patterns. This explains why many macroevolutionary studies suggest historical scenarios compatible with the observed current patterns but do not prove that it is indeed what happened. I will discuss how models can be used to mechanistically link micro- and macroevolution. I will discuss how far such explicit link allows to establish causal relationships between microevolutionary processes and macroevolutionary patterns. I will illustrate the discussion with an individual-based model of diversification combining ecological, genetic and geographical causes of speciation and extinction, and producing macroevolutionary outputs such as phylogenetic trees.          
     </div>
     </div>
          </td>
@@ -226,11 +234,7 @@ function showStuff(id) {
          </td>
       </tr>
       <tr class="tablerow">
-         <td class="timedetails">DAY 2<br/> Fri, 21<sup>th</sup> Jun.</td>
-         <td></td>
-      </tr>
-      <tr class="tablerow">
-         <td class="timedetails">08:30 - 09:00</td>
+         <td class="timedetails"><strong>DAY 2<br/> Fri, 21<sup>th</sup> Jun.</strong></td>
          <td></td>
       </tr>
       <tr class="tablerow">
@@ -325,13 +329,19 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">18:00 - 19:00</td>
-         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupGLongo" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		In his 1950, Turing proposed an "imitation game". The idea was to fool a person who, by asking questions via a teleprinter, seeks to establish whether the respondent is a woman or a machine. In no way Turing tried by this to find out how a human brain works, or to make a mathematical model of the brain. Turing's 1952 paper on morphogenesis, instead, describes a model of an action/ reaction/diffusion (non-)linear system that may allow to understand the genesis of (bio-chemical) forms. Can this help to understand today the differences between phenomenological modeling, analytic and computational simulations ? The proposal of (geometric) ''schemata'' is yet another use of mathematical tools for intelligibility which allowed us to de-spacialise biological time, in contrast to the prevailing physical modeling of time, increasingly identified with or subordinated to space, from Aristotle to Galileo and Einstein.
+		<br/>
+
+		<strong>References</strong> <br/>
+		- https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
+		- https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
+		- https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
     </div>
     </div>
          </td>
