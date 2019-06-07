@@ -46,7 +46,7 @@ Access to coffee breaks is limited to people who belong to the <strong>EDB lab</
 
 <br/>
 
-The program can be found <a href="../programme/">HERE</a>
+The program can be found <a href="./programme.html">HERE</a>
 
 <br/>
 

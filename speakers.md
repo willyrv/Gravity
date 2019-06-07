@@ -73,8 +73,8 @@ tagline: ""
 <br/>
 
 <p>
-<a href="http://www.ecoex-moulis.cnrs.fr/spip.php?article144&lang=en"><img src="./Claire_de_Mazancourt.png"></a><br/>
-<a href="http://www.ecoex-moulis.cnrs.fr/spip.php?article144&lang=en">Claire de Mazancourt</a>
+<a href="http://www.cbtm-moulis.com/m-168-claire-de-mazancourt.html"><img src="./Claire_de_Mazancourt.png"></a><br/>
+<a href="http://www.cbtm-moulis.com/m-168-claire-de-mazancourt.html">Claire de Mazancourt</a>
 </p>
 
 <br/>
