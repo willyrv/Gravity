@@ -78,7 +78,7 @@ function showStuff(id) {
     position: fixed;
     top: 50%;
     left: 50%;
-    background: #E8DCFC;
+    background: #ededed;
     margin-left: -400px; /*Half the value of width to center div*/
     margin-top: -250px; /*Half the value of height to center div*/
     z-index: 200;
@@ -96,7 +96,7 @@ function showStuff(id) {
 }
 .popupcontrols{
     height: 30px;
-    background: #A99CBF;
+    background: #d2d1d3;
 }
 #button {
     cursor: pointer;
@@ -239,13 +239,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
-         <td>Keynote: <u>Paul Antoine Miquel</u>. <br/><i>Gaia and Solaris</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td>Keynote: <u>Paul Antoine Miquel</u>. <br/><i>Gaia and Solaris</i>  <br> <span onclick="showPopup('popupPAMiquel', 'popupclosePAMiquel'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupPAMiquel" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupclosePAMiquel" onclick="hidePopup('popupPAMiquel', 'popupclosePAMiquel'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		This presentation is focused on the relation between a novel of Stanislas Lem, Solaris, and the work of the geochemist James Lovelock. Behind the strong differences between a fiction based on the rule of suspension of disbelief, and a scientific assumption compatible with the rule of truth, we will show Gaia and Solaris are based on two common philosophical statements: life must be understood, not simply at the level of the organism, but also at the level of the biosphere; and life is some kind of primitive mind without any intentional purpose, and then without consciousness. Gaia knows how to proceed in order to regulate geochemical conditions that permit its own existence, even if it cannot know that it has this ability and this skill.         
     </div>
     </div>
          </td>
