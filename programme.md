@@ -150,13 +150,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">10:30 - 11:30</td>
-         <td><u>Claudine Chaouiya </u>. <br/><i>Modelling molecular networks to assess relevant static and dynamical properties</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Claudine Chaouiya </u>. <br/><i>Modelling molecular networks to assess relevant static and dynamical properties</i>  <br> <span onclick="showPopup('popupCChaouiya', 'popupcloseCChaouiya'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupCChaouiya" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseCChaouiya" onclick="hidePopup('popupCChaouiya', 'popupcloseCChaouiya'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		Heterogeneous and complex molecular networks control cellular processes. While tremendous technical progresses led to the identification of molecular interactions, computational modelling is required to make sense of these data. I will first discuss the notion of molecular networks, the variety of related semantics, and provide a short overview of modelling approaches. I will then focus on the notion of (discrete) dynamical systems, on different types of properties and their biological relevance.
     </div>
     </div>
          </td>
@@ -311,13 +311,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td><u>Lounes Chikhi</u> and <u>Olivier Mazet</u>. <br/><i>Panmixia versus structure: why it changes how we can view human origins</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Lounes Chikhi</u> and <u>Olivier Mazet</u>. <br/><i>Panmixia versus structure: genomic data and recent human evolution</i>  <br> <span onclick="showPopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupLounes_Mazet" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseLounes_Mazet" onclick="hidePopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		Genetic and genomic data are increasingly used to reconstruct the demographic history of species. Some studies suggest that humans went through a bottleneck and expansions. Others claim that (some) humans admixed with Neanderthals. The aim of this talk is to try and discuss how the assumptions made (or the models used) by different authors may lead them to make (very different) statements on the evolution of humans, on the basis of genomic data. We will discuss in particular the importance of models that incorporate structure (the fact that mating is geographically constrained) and models that ignore structure (i.e. assume that population structure can be ignored for some inference). In a period where some studies are questioning the scenario whereby humans evolved in Africa, it is important to understand what genetic data allow to say and what they cannot allow us to say.
     </div>
     </div>
          </td>
