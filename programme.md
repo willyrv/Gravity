@@ -203,7 +203,7 @@ function showStuff(id) {
          </td>
       </tr>
 <tr class="tablerow">
-         <td class="timedetails">18:00 - 19:00</td>
+         <td class="timedetails">16:30 - 17:30</td>
          <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
          <div id="popupGLongo" class="popup">
     <div class="popupcontrols">
@@ -263,13 +263,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">10:30 - 11:30</td>
-         <td><u>Jorge Carneiro</u>. <br/><i>Collective and individual decision making by cells: analogies, simulations and models</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Jorge Carneiro</u>. <br/><i>Collective and individual decision making by cells: analogies, simulations and models</i>  <br> <span onclick="showPopup('popupJCarneiro', 'popupcloseJCarneiro'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupJCarneiro" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseJCarneiro" onclick="hidePopup('popupJCarneiro', 'popupcloseJCarneiro'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		Cells display individual or collective behaviours that are described as analogous to decision making. At the individual level the capacity of spermatozoa of marine invertebrates to find their conspecific eggs during marine broadcast spawning events represents a form of mating choice. The ability of the lymphocytes of the adaptive immune system to tolerate body tissues while fighting infection and rejecting allografts is understood as a collective discrimination between self and not self. I will first overview our efforts to understand these two paradigmatic cell behaviours via mathematical modelling, simulations and artificial system engineering. Based on this overview, I will then discuss the epistemic value of analogies, simulations and models.          
     </div>
     </div>
          </td>
@@ -298,7 +298,7 @@ function showStuff(id) {
          </td>
       </tr>
       <tr class="tablerow">
-         <td class="timedetails">16:30 - 17:30</td>
+         <td class="timedetails">15:00 - 16:00</td>
          <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
          <div id="popupRobinAguilee" class="popup">
     <div class="popupcontrols">
@@ -334,7 +334,7 @@ function showStuff(id) {
          </td>
       </tr>
       <tr class="tablerow">
-         <td class="timedetails">10:30 - 11:30</td>
+         <td class="timedetails">18:00 - 19:00</td>
          <td>Keynote: <u>To Be Announced</u>. <br/><i>TBA</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
          <div id="popupRasmus" class="popup">
     <div class="popupcontrols">
