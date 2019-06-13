@@ -202,19 +202,25 @@ function showStuff(id) {
          <td> COFFEE BREAK
          </td>
       </tr>
-      <tr class="tablerow">
-         <td class="timedetails">16:30 - 17:30</td>
-         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRobinAguilee" class="popup">
+<tr class="tablerow">
+         <td class="timedetails">18:00 - 19:00</td>
+         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupGLongo" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
+        <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Macroevolutionary patterns (e.g. rate of diversification, species-area relationship) ultimately result from microevolutionary mechanisms (competition, trait evolution, etc.). Nevertheless, the causal links between micro- and macro-timescales are usually very difficult to establish from empirical patterns. This explains why many macroevolutionary studies suggest historical scenarios compatible with the observed current patterns but do not prove that it is indeed what happened. I will discuss how models can be used to mechanistically link micro- and macroevolution. I will discuss how far such explicit link allows to establish causal relationships between microevolutionary processes and macroevolutionary patterns. I will illustrate the discussion with an individual-based model of diversification combining ecological, genetic and geographical causes of speciation and extinction, and producing macroevolutionary outputs such as phylogenetic trees.          
+        In his 1950, Turing proposed an "imitation game". The idea was to fool a person who, by asking questions via a teleprinter, seeks to establish whether the respondent is a woman or a machine. In no way Turing tried by this to find out how a human brain works, or to make a mathematical model of the brain. Turing's 1952 paper on morphogenesis, instead, describes a model of an action/ reaction/diffusion (non-)linear system that may allow to understand the genesis of (bio-chemical) forms. Can this help to understand today the differences between phenomenological modeling, analytic and computational simulations ? The proposal of (geometric) ''schemata'' is yet another use of mathematical tools for intelligibility which allowed us to de-spacialise biological time, in contrast to the prevailing physical modeling of time, increasingly identified with or subordinated to space, from Aristotle to Galileo and Einstein.
+        <br/>
+
+        <strong>References</strong> <br/>
+        - https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
+        - https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
+        - https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
     </div>
     </div>
          </td>
-      </tr>
+      </tr>             
     <tr class="tablerow">
          <td class="timedetails">17:30 - 18:00</td>
          <td> PAUSE / DISCUSSION
@@ -280,26 +286,26 @@ function showStuff(id) {
       </tr>        
       <tr class="tablerow">
          <td class="timedetails">14:00 - 15:00</td>
-         <td><u>Arnaud Pocheville </u>. <br/><i>TBA</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Arnaud Pocheville </u>. <br/><i>On virtues of modelling in biology</i>  <br> <span onclick="showPopup('popupAPocheville', 'popupcloseAPocheville'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupAPocheville" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseAPocheville" onclick="hidePopup('popupAPocheville', 'popupcloseAPocheville'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		Models in biology are notoriously false. This property of models raises a subtle philosophical question: how can models be scientifically virtuous, in spite of being false? Or, rather, aren't models virtuous thanks to their being false?
     </div>
     </div>
          </td>
       </tr>
       <tr class="tablerow">
-         <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Alekos Athanasiadis</u>. <br/><i>TBA</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td class="timedetails">16:30 - 17:30</td>
+         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupRobinAguilee" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+        Macroevolutionary patterns (e.g. rate of diversification, species-area relationship) ultimately result from microevolutionary mechanisms (competition, trait evolution, etc.). Nevertheless, the causal links between micro- and macro-timescales are usually very difficult to establish from empirical patterns. This explains why many macroevolutionary studies suggest historical scenarios compatible with the observed current patterns but do not prove that it is indeed what happened. I will discuss how models can be used to mechanistically link micro- and macroevolution. I will discuss how far such explicit link allows to establish causal relationships between microevolutionary processes and macroevolutionary patterns. I will illustrate the discussion with an individual-based model of diversification combining ecological, genetic and geographical causes of speciation and extinction, and producing macroevolutionary outputs such as phylogenetic trees.          
     </div>
     </div>
          </td>
@@ -328,24 +334,18 @@ function showStuff(id) {
          </td>
       </tr>
       <tr class="tablerow">
-         <td class="timedetails">18:00 - 19:00</td>
-         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupGLongo" class="popup">
+         <td class="timedetails">10:30 - 11:30</td>
+         <td>Keynote: <u>To Be Announced</u>. <br/><i>TBA</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupRasmus" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
+        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		In his 1950, Turing proposed an "imitation game". The idea was to fool a person who, by asking questions via a teleprinter, seeks to establish whether the respondent is a woman or a machine. In no way Turing tried by this to find out how a human brain works, or to make a mathematical model of the brain. Turing's 1952 paper on morphogenesis, instead, describes a model of an action/ reaction/diffusion (non-)linear system that may allow to understand the genesis of (bio-chemical) forms. Can this help to understand today the differences between phenomenological modeling, analytic and computational simulations ? The proposal of (geometric) ''schemata'' is yet another use of mathematical tools for intelligibility which allowed us to de-spacialise biological time, in contrast to the prevailing physical modeling of time, increasingly identified with or subordinated to space, from Aristotle to Galileo and Einstein.
-		<br/>
-
-		<strong>References</strong> <br/>
-		- https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
-		- https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
-		- https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
+        Abstract to be announced         
     </div>
     </div>
          </td>
-      </tr>             
+      </tr>
     </tbody>
 </table>
 
