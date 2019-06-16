@@ -186,13 +186,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Erida Gjini </u>. <br/><i>Understanding microbial competition with mathematical models</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Erida Gjini </u>. <br/><i>Understanding microbial competition with mathematical models</i>  <br> <span onclick="showPopup('popupEGjini', 'popupcloseEGjini'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupEGjini" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseEGjini" onclick="hidePopup('popupEGjini', 'popupcloseEGjini'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		A fundamental question in ecology and evolutionary biology is the generation and maintenance of biodiversity. In epidemiology a parallel challenge concerns mechanisms underlying polymorphism in pathogens and microbes. Here I will show how with mathematical modelling we can address diversity and coexistence in co-colonizing microbial systems. I will describe the multi-type interactions, ranging from cooperation to competition, that arise in microbial co-colonization among N closely-related strains. Next, I will present an analytic framework for simplifying and understanding better such a system based on slow- fast dynamics. This framework can predict explicitly strain coexistence from the co-colonization interaction matrix, and enable very efficient computation of the dynamics for arbitrary number of strains. I will also discuss links with niche and neutral theory arising from this analysis and potential applications.
     </div>
     </div>
          </td>
