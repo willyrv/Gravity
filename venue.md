@@ -39,6 +39,7 @@ Here is how the entrance of INSA should look like:
 <img src="INSA_entrance.png">
 </div>
 
+<br/>
 
 Here is how the entrance of the "Amphithéâtre Fourier" looks like:
 
@@ -48,4 +49,3 @@ Here is how the entrance of the "Amphithéâtre Fourier" looks like:
 
 
 <br/>
-
