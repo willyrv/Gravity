@@ -132,13 +132,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
-         <td><u>Jérôme Chave </u>. <br/><i>Why individual-based models are important to understand ecosystems?</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
+         <td><u>Jérôme Chave </u>. <br/><i>Why are individual-based models important to understand the global carbon cycle?</i>  <br> <span onclick="showPopup('popupJChave', 'popupcloseJChave'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupJChave" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
+        <span id="popupcloseJChave" onclick="hidePopup('popupJChave', 'popupcloseJChave'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		The increase of atmospheric carbon dioxide is a cause of global climate change, yet the response of vegetation to ongoing changes is poorly resolved. Currently, about 25% of fossil fuel emissions are sequestered by vegetation, another 25% by the oceans and the rest, only 50%, is emitted into the atmosphere. It is therefore crucial to evaluate the futures of the carbon sequestration potential for lands and oceans. One approach to address this challenge is to develop models that combine the state of the art in our knowledge of plant physiology, water cycle, and remote sensing. Historically, these models have been seen as box models, where fluxes are modelled through a combination of empirical equations. This has resulted in largely phenomenological models and cumulatively complex ones. Even the cornerstone of these approaches, the Farquhar-von Caemmerer-Berry model of leaf carbon economy, is in part empirical. An even more serious drawback is that the carbon stock of an ecosystem has long been modelled as proportional to the ecosystem's uptake potential. This assumption is reasonable in annual systems, such as agricultural lands or savannas, but seriously departs from reality in forests. Here I contend that individual-based models of forest dynamics lift a number of assumptions in classic vegetation models, and provide a much more straightforward approach to the modelling of forest carbon dynamics. I will discuss the cost related to modelling trees one by one, versus the alternative of coarse-grained approaches. I will also discuss the implications of being able to track individuals through time explicitly, e.g., to explore the response of species to environment shifts. This study provides an example of how non-trivial macroscopic patterns emerge from microscopic individual-based models.
     </div>
     </div>
          </td>
