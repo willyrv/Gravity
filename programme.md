@@ -132,13 +132,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
-         <td><u>Jérôme Chave </u>. <br/><i>Why are individual-based models important to understand the global carbon cycle?</i>  <br> <span onclick="showPopup('popupJChave', 'popupcloseJChave'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupJChave" class="popup">
+         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupRobinAguilee" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseJChave" onclick="hidePopup('popupJChave', 'popupcloseJChave'); return false;" class="popupclose">x</span>
+        <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		The increase of atmospheric carbon dioxide is a cause of global climate change, yet the response of vegetation to ongoing changes is poorly resolved. Currently, about 25% of fossil fuel emissions are sequestered by vegetation, another 25% by the oceans and the rest, only 50%, is emitted into the atmosphere. It is therefore crucial to evaluate the futures of the carbon sequestration potential for lands and oceans. One approach to address this challenge is to develop models that combine the state of the art in our knowledge of plant physiology, water cycle, and remote sensing. Historically, these models have been seen as box models, where fluxes are modelled through a combination of empirical equations. This has resulted in largely phenomenological models and cumulatively complex ones. Even the cornerstone of these approaches, the Farquhar-von Caemmerer-Berry model of leaf carbon economy, is in part empirical. An even more serious drawback is that the carbon stock of an ecosystem has long been modelled as proportional to the ecosystem's uptake potential. This assumption is reasonable in annual systems, such as agricultural lands or savannas, but seriously departs from reality in forests. Here I contend that individual-based models of forest dynamics lift a number of assumptions in classic vegetation models, and provide a much more straightforward approach to the modelling of forest carbon dynamics. I will discuss the cost related to modelling trees one by one, versus the alternative of coarse-grained approaches. I will also discuss the implications of being able to track individuals through time explicitly, e.g., to explore the response of species to environment shifts. This study provides an example of how non-trivial macroscopic patterns emerge from microscopic individual-based models.
+        Macroevolutionary patterns (e.g. rate of diversification, species-area relationship) ultimately result from microevolutionary mechanisms (competition, trait evolution, etc.). Nevertheless, the causal links between micro- and macro-timescales are usually very difficult to establish from empirical patterns. This explains why many macroevolutionary studies suggest historical scenarios compatible with the observed current patterns but do not prove that it is indeed what happened. I will discuss how models can be used to mechanistically link micro- and macroevolution. I will discuss how far such explicit link allows to establish causal relationships between microevolutionary processes and macroevolutionary patterns. I will illustrate the discussion with an individual-based model of diversification combining ecological, genetic and geographical causes of speciation and extinction, and producing macroevolutionary outputs such as phylogenetic trees.          
     </div>
     </div>
          </td>
@@ -186,13 +186,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Erida Gjini </u>. <br/><i>Understanding microbial competition with mathematical models</i>  <br> <span onclick="showPopup('popupEGjini', 'popupcloseEGjini'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupEGjini" class="popup">
+         <td><u>Jérôme Chave </u>. <br/><i>Why are individual-based models important to understand the global carbon cycle?</i>  <br> <span onclick="showPopup('popupJChave', 'popupcloseJChave'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupJChave" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseEGjini" onclick="hidePopup('popupEGjini', 'popupcloseEGjini'); return false;" class="popupclose">x</span>
+        <span id="popupcloseJChave" onclick="hidePopup('popupJChave', 'popupcloseJChave'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		A fundamental question in ecology and evolutionary biology is the generation and maintenance of biodiversity. In epidemiology a parallel challenge concerns mechanisms underlying polymorphism in pathogens and microbes. Here I will show how with mathematical modelling we can address diversity and coexistence in co-colonizing microbial systems. I will describe the multi-type interactions, ranging from cooperation to competition, that arise in microbial co-colonization among N closely-related strains. Next, I will present an analytic framework for simplifying and understanding better such a system based on slow- fast dynamics. This framework can predict explicitly strain coexistence from the co-colonization interaction matrix, and enable very efficient computation of the dynamics for arbitrary number of strains. I will also discuss links with niche and neutral theory arising from this analysis and potential applications.
+        The increase of atmospheric carbon dioxide is a cause of global climate change, yet the response of vegetation to ongoing changes is poorly resolved. Currently, about 25% of fossil fuel emissions are sequestered by vegetation, another 25% by the oceans and the rest, only 50%, is emitted into the atmosphere. It is therefore crucial to evaluate the futures of the carbon sequestration potential for lands and oceans. One approach to address this challenge is to develop models that combine the state of the art in our knowledge of plant physiology, water cycle, and remote sensing. Historically, these models have been seen as box models, where fluxes are modelled through a combination of empirical equations. This has resulted in largely phenomenological models and cumulatively complex ones. Even the cornerstone of these approaches, the Farquhar-von Caemmerer-Berry model of leaf carbon economy, is in part empirical. An even more serious drawback is that the carbon stock of an ecosystem has long been modelled as proportional to the ecosystem's uptake potential. This assumption is reasonable in annual systems, such as agricultural lands or savannas, but seriously departs from reality in forests. Here I contend that individual-based models of forest dynamics lift a number of assumptions in classic vegetation models, and provide a much more straightforward approach to the modelling of forest carbon dynamics. I will discuss the cost related to modelling trees one by one, versus the alternative of coarse-grained approaches. I will also discuss the implications of being able to track individuals through time explicitly, e.g., to explore the response of species to environment shifts. This study provides an example of how non-trivial macroscopic patterns emerge from microscopic individual-based models.
     </div>
     </div>
          </td>
@@ -202,41 +202,22 @@ function showStuff(id) {
          <td> COFFEE BREAK
          </td>
       </tr>
-<tr class="tablerow">
+      <tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupGLongo" class="popup">
+         <td><u>Erida Gjini </u>. <br/><i>Understanding microbial competition with mathematical models</i>  <br> <span onclick="showPopup('popupEGjini', 'popupcloseEGjini'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupEGjini" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
+        <span id="popupcloseEGjini" onclick="hidePopup('popupEGjini', 'popupcloseEGjini'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-        In his 1950, Turing proposed an "imitation game". The idea was to fool a person who, by asking questions via a teleprinter, seeks to establish whether the respondent is a woman or a machine. In no way Turing tried by this to find out how a human brain works, or to make a mathematical model of the brain. Turing's 1952 paper on morphogenesis, instead, describes a model of an action/ reaction/diffusion (non-)linear system that may allow to understand the genesis of (bio-chemical) forms. Can this help to understand today the differences between phenomenological modeling, analytic and computational simulations ? The proposal of (geometric) ''schemata'' is yet another use of mathematical tools for intelligibility which allowed us to de-spacialise biological time, in contrast to the prevailing physical modeling of time, increasingly identified with or subordinated to space, from Aristotle to Galileo and Einstein.
-        <br/>
-
-        <strong>References</strong> <br/>
-        - https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
-        - https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
-        - https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
+        A fundamental question in ecology and evolutionary biology is the generation and maintenance of biodiversity. In epidemiology a parallel challenge concerns mechanisms underlying polymorphism in pathogens and microbes. Here I will show how with mathematical modelling we can address diversity and coexistence in co-colonizing microbial systems. I will describe the multi-type interactions, ranging from cooperation to competition, that arise in microbial co-colonization among N closely-related strains. Next, I will present an analytic framework for simplifying and understanding better such a system based on slow- fast dynamics. This framework can predict explicitly strain coexistence from the co-colonization interaction matrix, and enable very efficient computation of the dynamics for arbitrary number of strains. I will also discuss links with niche and neutral theory arising from this analysis and potential applications.
     </div>
     </div>
          </td>
-      </tr>             
+      </tr>
     <tr class="tablerow">
          <td class="timedetails">17:30 - 18:00</td>
          <td> PAUSE / DISCUSSION
-         </td>
-      </tr>
-      <tr class="tablerow">
-         <td class="timedetails">18:00 - 19:00</td>
-         <td>Keynote: <u>António Coutinho</u>. <br/><i>Models and immunology: a personal and historical account</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
-    <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
-    </div>
-    <div class="popupcontent">
-		Abstract to be announced         
-    </div>
-    </div>
          </td>
       </tr>
       <tr class="tablerow">
@@ -299,13 +280,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRobinAguilee" class="popup">
+         <td><u>Lounes Chikhi</u> and <u>Olivier Mazet</u>. <br/><i>Panmixia versus structure: genomic data and recent human evolution</i>  <br> <span onclick="showPopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupLounes_Mazet" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
+        <span id="popupcloseLounes_Mazet" onclick="hidePopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-        Macroevolutionary patterns (e.g. rate of diversification, species-area relationship) ultimately result from microevolutionary mechanisms (competition, trait evolution, etc.). Nevertheless, the causal links between micro- and macro-timescales are usually very difficult to establish from empirical patterns. This explains why many macroevolutionary studies suggest historical scenarios compatible with the observed current patterns but do not prove that it is indeed what happened. I will discuss how models can be used to mechanistically link micro- and macroevolution. I will discuss how far such explicit link allows to establish causal relationships between microevolutionary processes and macroevolutionary patterns. I will illustrate the discussion with an individual-based model of diversification combining ecological, genetic and geographical causes of speciation and extinction, and producing macroevolutionary outputs such as phylogenetic trees.          
+        Genetic and genomic data are increasingly used to reconstruct the demographic history of species. Some studies suggest that humans went through a bottleneck and expansions. Others claim that (some) humans admixed with Neanderthals. The aim of this talk is to try and discuss how the assumptions made (or the models used) by different authors may lead them to make (very different) statements on the evolution of humans, on the basis of genomic data. We will discuss in particular the importance of models that incorporate structure (the fact that mating is geographically constrained) and models that ignore structure (i.e. assume that population structure can be ignored for some inference). In a period where some studies are questioning the scenario whereby humans evolved in Africa, it is important to understand what genetic data allow to say and what they cannot allow us to say.
     </div>
     </div>
          </td>
@@ -315,35 +296,28 @@ function showStuff(id) {
          <td> COFFEE BREAK
          </td>
       </tr>
-      <tr class="tablerow">
+<tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td><u>Lounes Chikhi</u> and <u>Olivier Mazet</u>. <br/><i>Panmixia versus structure: genomic data and recent human evolution</i>  <br> <span onclick="showPopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupLounes_Mazet" class="popup">
+         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <div id="popupGLongo" class="popup">
     <div class="popupcontrols">
-        <span id="popupcloseLounes_Mazet" onclick="hidePopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" class="popupclose">x</span>
+        <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Genetic and genomic data are increasingly used to reconstruct the demographic history of species. Some studies suggest that humans went through a bottleneck and expansions. Others claim that (some) humans admixed with Neanderthals. The aim of this talk is to try and discuss how the assumptions made (or the models used) by different authors may lead them to make (very different) statements on the evolution of humans, on the basis of genomic data. We will discuss in particular the importance of models that incorporate structure (the fact that mating is geographically constrained) and models that ignore structure (i.e. assume that population structure can be ignored for some inference). In a period where some studies are questioning the scenario whereby humans evolved in Africa, it is important to understand what genetic data allow to say and what they cannot allow us to say.
+        In his 1950, Turing proposed an "imitation game". The idea was to fool a person who, by asking questions via a teleprinter, seeks to establish whether the respondent is a woman or a machine. In no way Turing tried by this to find out how a human brain works, or to make a mathematical model of the brain. Turing's 1952 paper on morphogenesis, instead, describes a model of an action/ reaction/diffusion (non-)linear system that may allow to understand the genesis of (bio-chemical) forms. Can this help to understand today the differences between phenomenological modeling, analytic and computational simulations ? The proposal of (geometric) ''schemata'' is yet another use of mathematical tools for intelligibility which allowed us to de-spacialise biological time, in contrast to the prevailing physical modeling of time, increasingly identified with or subordinated to space, from Aristotle to Galileo and Einstein.
+        <br/>
+
+        <strong>References</strong> <br/>
+        - https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
+        - https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
+        - https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
     </div>
     </div>
          </td>
-      </tr>
+      </tr>             
     <tr class="tablerow">
-         <td class="timedetails">17:30 - 18:00</td>
+         <td class="timedetails">17:30 - 18:30</td>
          <td> PAUSE / DISCUSSION
-         </td>
-      </tr>
-      <tr class="tablerow">
-         <td class="timedetails">18:00 - 19:00</td>
-         <td>Keynote: <u>To Be Announced</u>. <br/><i>TBA</i>  <br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
-         <div id="popupRasmus" class="popup">
-    <div class="popupcontrols">
-        <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
-    </div>
-    <div class="popupcontent">
-        Abstract to be announced         
-    </div>
-    </div>
          </td>
       </tr>
     </tbody>
