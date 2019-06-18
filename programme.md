@@ -119,13 +119,13 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">08:30 - 09:00</td>
-         <td>INTRO: <u>Olivier Mazet</u> and <u>Lounès Chikhi</u> <br/> <i>Why models are important: population genetics and beyond.</i><br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>INTRO: <u>Olivier Mazet</u> and <u>Lounès Chikhi</u> <br/> <i>Why models are important: population genetics and beyond.</i><br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;"></span>
          <div id="popupRasmus" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
     </div>
     <div class="popupcontent">
-		Abstract to be announced         
+		        
     </div>
     </div>
          </td>
@@ -216,8 +216,8 @@ function showStuff(id) {
          </td>
       </tr>
     <tr class="tablerow">
-         <td class="timedetails">17:30 - 18:00</td>
-         <td> PAUSE / DISCUSSION
+         <td class="timedetails">17:30 - 18:30</td>
+         <td> FINAL DISCUSSION
          </td>
       </tr>
       <tr class="tablerow">
@@ -317,7 +317,7 @@ function showStuff(id) {
       </tr>             
     <tr class="tablerow">
          <td class="timedetails">17:30 - 18:30</td>
-         <td> PAUSE / DISCUSSION
+         <td> FINAL DISCUSSION
          </td>
       </tr>
     </tbody>
