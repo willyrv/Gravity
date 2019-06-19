@@ -119,7 +119,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">08:30 - 09:00</td>
-         <td>INTRO: <u>Olivier Mazet</u> and <u>Lounès Chikhi</u> <br/> <i>Why models are important: population genetics and beyond.</i><br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;"></span>
+         <td>INTRO: Olivier Mazet and Lounès Chikhi. <br/> <i>Why models are important: population genetics and beyond.</i><br> <span onclick="showPopup('popupRasmus', 'popupcloseRasmus'); return false;" style="cursor: pointer;"></span>
          <div id="popupRasmus" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseRasmus" onclick="hidePopup('popupRasmus', 'popupcloseRasmus'); return false;" class="popupclose">x</span>
@@ -132,7 +132,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
-         <td><u>Robin Aguilée </u>. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Robin Aguilée. <br/><i>How to use models to link microevolutionary mechanisms and macroevolutionary dynamics?</i>  <br> <span onclick="showPopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupRobinAguilee" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseRobinAguilee" onclick="hidePopup('popupRobinAguilee', 'popupcloseRobinAguilee'); return false;" class="popupclose">x</span>
@@ -150,7 +150,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">10:30 - 11:30</td>
-         <td><u>Claudine Chaouiya </u>. <br/><i>Modelling molecular networks to assess relevant static and dynamical properties</i>  <br> <span onclick="showPopup('popupCChaouiya', 'popupcloseCChaouiya'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Claudine Chaouiya. <br/><i>Modelling molecular networks to assess relevant static and dynamical properties.</i>  <br> <span onclick="showPopup('popupCChaouiya', 'popupcloseCChaouiya'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupCChaouiya" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseCChaouiya" onclick="hidePopup('popupCChaouiya', 'popupcloseCChaouiya'); return false;" class="popupclose">x</span>
@@ -173,7 +173,7 @@ function showStuff(id) {
       </tr>        
       <tr class="tablerow">
          <td class="timedetails">14:00 - 15:00</td>
-         <td><u>Claire de Mazancourt </u>. <br/><i>Biodiversity, ecosystem functioning & stability: theory & modelling</i>  <br> <span onclick="showPopup('popupCMazancourt', 'CMazancourt'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Claire de Mazancourt. <br/><i>Biodiversity, ecosystem functioning & stability: theory & modelling.</i>  <br> <span onclick="showPopup('popupCMazancourt', 'CMazancourt'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupCMazancourt" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseCMazancourt" onclick="hidePopup('popupCMazancourt', 'CMazancourt'); return false;" class="popupclose">x</span>
@@ -186,7 +186,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Jérôme Chave </u>. <br/><i>Why are individual-based models important to understand the global carbon cycle?</i>  <br> <span onclick="showPopup('popupJChave', 'popupcloseJChave'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Jérôme Chave. <br/><i>Why are individual-based models important to understand the global carbon cycle?</i>  <br> <span onclick="showPopup('popupJChave', 'popupcloseJChave'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupJChave" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseJChave" onclick="hidePopup('popupJChave', 'popupcloseJChave'); return false;" class="popupclose">x</span>
@@ -204,7 +204,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td><u>Erida Gjini </u>. <br/><i>Understanding microbial competition with mathematical models</i>  <br> <span onclick="showPopup('popupEGjini', 'popupcloseEGjini'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Erida Gjini. <br/><i>Understanding microbial competition with mathematical models.</i>  <br> <span onclick="showPopup('popupEGjini', 'popupcloseEGjini'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupEGjini" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseEGjini" onclick="hidePopup('popupEGjini', 'popupcloseEGjini'); return false;" class="popupclose">x</span>
@@ -226,7 +226,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">09:00 - 10:00</td>
-         <td>Keynote: <u>Paul Antoine Miquel</u>. <br/><i>Gaia and Solaris</i>  <br> <span onclick="showPopup('popupPAMiquel', 'popupclosePAMiquel'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Keynote: Paul Antoine Miquel. <br/><i>Gaia and Solaris.</i>  <br> <span onclick="showPopup('popupPAMiquel', 'popupclosePAMiquel'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupPAMiquel" class="popup">
     <div class="popupcontrols">
         <span id="popupclosePAMiquel" onclick="hidePopup('popupPAMiquel', 'popupclosePAMiquel'); return false;" class="popupclose">x</span>
@@ -244,7 +244,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">10:30 - 11:30</td>
-         <td><u>Jorge Carneiro</u>. <br/><i>Collective and individual decision making by cells: analogies, simulations and models</i>  <br> <span onclick="showPopup('popupJCarneiro', 'popupcloseJCarneiro'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Jorge Carneiro. <br/><i>Collective and individual decision making by cells: analogies, simulations and models.</i>  <br> <span onclick="showPopup('popupJCarneiro', 'popupcloseJCarneiro'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupJCarneiro" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseJCarneiro" onclick="hidePopup('popupJCarneiro', 'popupcloseJCarneiro'); return false;" class="popupclose">x</span>
@@ -267,7 +267,7 @@ function showStuff(id) {
       </tr>        
       <tr class="tablerow">
          <td class="timedetails">14:00 - 15:00</td>
-         <td><u>Arnaud Pocheville </u>. <br/><i>On virtues of modelling in biology</i>  <br> <span onclick="showPopup('popupAPocheville', 'popupcloseAPocheville'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Arnaud Pocheville. <br/><i>On virtues of modelling in biology.</i>  <br> <span onclick="showPopup('popupAPocheville', 'popupcloseAPocheville'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupAPocheville" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseAPocheville" onclick="hidePopup('popupAPocheville', 'popupcloseAPocheville'); return false;" class="popupclose">x</span>
@@ -280,7 +280,7 @@ function showStuff(id) {
       </tr>
       <tr class="tablerow">
          <td class="timedetails">15:00 - 16:00</td>
-         <td><u>Lounes Chikhi</u> and <u>Olivier Mazet</u>. <br/><i>Panmixia versus structure: genomic data and recent human evolution</i>  <br> <span onclick="showPopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Lounes Chikhi and Olivier Mazet. <br/><i>Panmixia versus structure: genomic data and recent human evolution.</i>  <br> <span onclick="showPopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupLounes_Mazet" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseLounes_Mazet" onclick="hidePopup('popupLounes_Mazet', 'popupcloseLounes_Mazet'); return false;" class="popupclose">x</span>
@@ -298,7 +298,7 @@ function showStuff(id) {
       </tr>
 <tr class="tablerow">
          <td class="timedetails">16:30 - 17:30</td>
-         <td>Keynote: <u>Giuseppe Longo</u>. <br/><i>Models vs Imitations. Geometric schemata for biological time</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;">(view abstract)</span>
+         <td>Keynote: Giuseppe Longo. <br/><i>Models vs Imitations. Geometric schemata for biological time.</i>  <br> <span onclick="showPopup('popupGLongo', 'popupcloseGLongo'); return false;" style="cursor: pointer;"><u>view abstract</u></span>
          <div id="popupGLongo" class="popup">
     <div class="popupcontrols">
         <span id="popupcloseGLongo" onclick="hidePopup('popupGLongo', 'popupcloseGLongo'); return false;" class="popupclose">x</span>
@@ -309,7 +309,7 @@ function showStuff(id) {
 
         <strong>References</strong> <br/>
         - https://www.di.ens.fr/users/longo/download.html:<br/>G. Longo.  Letter to Alan Turing.  Invited, in Theory, Culture and Society, Posthumanities Special Issue, 2018 <br/>
-        - https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
+        - https://www.di.ens.fr/users/longo/files/Letter-to-Turing.pdf <br/> Francis Bailly, Giuseppe Longo, Maël Montévil.    A 2-dimensional Geometry for Biological Time.  In Progress in Biophysics and Molecular Biology: vol. 106, n. 3, pp. 474 – 484, 2011 <br/>
         - https://www.di.ens.fr/users/longo/files/CIM/2-dimTime.pdf
     </div>
     </div>
